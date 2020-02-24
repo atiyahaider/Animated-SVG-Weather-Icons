@@ -1,4 +1,4 @@
 # Animated Weather Icons
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/atiyahaider/pen/XwmPxq](https://codepen.io/atiyahaider/pen/XwmPxq).
+ https://atiyahaider.github.io/Animated-SVG-Weather-Icons/
 
  Animated Weather Icons
