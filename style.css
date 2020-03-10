@@ -454,6 +454,71 @@ figure {
   animation-duration: 3s;
 }
 
+.wind {
+  fill: none;
+  stroke: #333333;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+}
+
+#wind1 {
+  -webkit-animation: windy 2.5s linear forwards infinite 0.5s;
+  animation: windy 2.5s linear forwards infinite 0.5s;
+}
+#wind2 {
+  -webkit-animation: windy 2.8s linear forwards infinite 0.55s;
+  animation: windy 2.8s linear forwards infinite 0.55s ;
+}
+#wind3 {
+  -webkit-animation: windy 3.5s linear forwards infinite 2s;
+  animation: windy 3.5s linear forwards infinite 2s;
+}
+#wind4 {
+  -webkit-animation: windy 3.5s linear forwards infinite 0.5s;
+  animation: windy 3.5s linear forwards infinite 0.5s;
+}
+#wind5 {
+  -webkit-animation: windy 4s linear forwards infinite 0.5s;
+  animation: windy 4s linear forwards infinite 0.5s;
+}
+
+@-webkit-keyframes windy {
+to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes windy {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#tornado{
+  -webkit-animation: skewX 0.85s infinite linear alternate;
+  animation: skewX 0.85s infinite linear alternate;
+}
+
+@webkit-keyframes skewX {
+0% {
+    -webkit-transform: skewX(20deg);
+  }
+  100% {
+    -webkit-transform: skewX(-20deg);
+  }
+}
+@keyframes skewX {
+0% {
+    -ms-transform: skewX(20deg);
+    transform: skewX(20deg);
+  }
+  100% {
+    -ms-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+}
+
 footer {
   text-align: right;
   margin-top: 20px;
