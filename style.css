@@ -500,7 +500,7 @@ to {
   animation: skewX 0.85s infinite linear alternate;
 }
 
-@webkit-keyframes skewX {
+@-webkit-keyframes skewX {
 0% {
     -webkit-transform: skewX(20deg);
   }
